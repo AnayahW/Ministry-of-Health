@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of the Ministry of Health, Trinidad and Tobago">
+    <meta name="keywords" content="Health, Ministry, Trinidad, Tobago, Public Health, Services">
+    <meta name="author" content="Ministry of Health">
+    <title>Ministry of Health Trinidad and Tobago</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="register-banner"></div>
+        <div class="container"></div>
+            <h1 class="register-h1">Register</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="register.html">Register/Login</a></li>
+                    <li><a href="health_services.html">Health Services</a></li>
+                    <li><a href="public_services.html">Public Services</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div class="form-container">
+          <form class="registration-form" action="thankyou.html">
+            <fieldset>
+              <legend>Registration</legend>
+              <label>Full Name:
+                <input type="text" name="fullname" placeholder="John Doe" required>
+              </label>
+              <label>Username:
+                <input type="text" name="username" placeholder="johndoe" required>
+              </label>
+              <label>Phone Number:
+                <input type="text" name="phone" placeholder="123-456-7890" required>
+              </label>
+              <label>Date of Birth:
+                <input type="date" name="dob">
+              </label>
+              <fieldset>
+                <legend>Gender:</legend>
+                <label><input type="radio" name="gender" value="male" checked> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+              </fieldset>
+              <label>Email Address:
+                <input type="email" name="email" placeholder="example@domain.com" required>
+              </label>
+              <label>Password:
+                <input type="password" id="pwd" name="pwd" placeholder="*****" required>
+              </label>
+              <label>Confirm Password:
+                <input type="password" id="cpwd" name="cpwd" placeholder="*****" required>
+              </label>
+              <label for="comments">Additional Comments:</label>
+              <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter any additional information here."></textarea>
+              <input type="submit" value="Register">
+            </fieldset>
+          </form>
+
+          <form class="login-form" action="../index.html">
+            <fieldset>
+              <legend>Member Login</legend>
+              <label>Username:
+                <input type="text" name="login-username" required>
+              </label>
+              <label>Password:
+                <input type="password" name="login-password" required>
+              </label>
+              <input type="submit" value="Login">
+            </fieldset>
+          </form>
+        </div>
+
+        <section id="cta">
+            <div class="container">
+                <h3>Explore Our Services</h3></div>
+                <div class="cta-buttons">
+                    <a href="register.html" class="button">Register Now</a>
+                    <a href="news.html" class="button">Latest News</a></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container"></div>
+            <p>&copy; 2025 Ministry of Health, Trinidad and Tobago. All Rights Reserved.</p>
+            <p><a href="about.html">Contact Us</a> | <a href="about.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
+
+
